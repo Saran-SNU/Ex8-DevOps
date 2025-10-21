@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
-        contactForm.addEventListener('submit', function() {
+        contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
             // Get form values
